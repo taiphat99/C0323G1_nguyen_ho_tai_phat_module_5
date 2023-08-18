@@ -35,7 +35,16 @@
 // let a = (name) => "Hi " + name;
 // console.log(a("Danny"));
 
-let arr = ["danny","chunky"];
-let newArr = ["jenny","franky"];
-let finalArr= [...arr,...newArr];
-console.log(finalArr);
+// let arr = ["danny","chunky"];
+// let newArr = ["jenny","franky"];
+// let finalArr= [...arr,...newArr];
+// console.log(finalArr);
+
+
+const obj = {counter: 0};
+
+Object.defineProperty(obj,"reset",{
+    get: function(){this.counter=0;}
+});
+
+Object.defineProperty(obj,"a")
