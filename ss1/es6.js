@@ -57,20 +57,15 @@ let courses = [
 
 
     // Second Request
-    let secondRequest = courses.filter(({rating}) => rating <4).map(toString);
-    function toString({id,title,rating}){
-            return id + " - " + title + " - " + rating;
-    }
+    let secondRequest = courses.filter(({rating}) => rating <4).map((element) =>(element.id + " - " + element.title + " - " + element.rating));
     console.log(secondRequest);
 
 
 
     // Third Request
 
-
-    let finalCourses = [...courses,...addedCourses];
-    console.log(finalCourses);
-
+    let finalCourses = (courses,addedCourses) =>[...courses,...addedCourses];
+    console.log(finalCourses(courses,addedCourses));
 
 
 
