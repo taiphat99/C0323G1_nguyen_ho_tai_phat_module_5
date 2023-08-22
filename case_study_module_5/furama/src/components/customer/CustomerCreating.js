@@ -34,3 +34,4 @@ function CustomerCreating() {
         </div>
     );
 }
+export default CustomerCreating;
