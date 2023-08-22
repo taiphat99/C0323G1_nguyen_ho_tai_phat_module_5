@@ -1,0 +1,202 @@
+:root {
+    --primary-color: #00aefd;
+    --secondary-color: #ffa400;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.box {
+    width: 20em;
+    height: 20em;
+    background-image: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    box-shadow: 0.5em 0.5em 1em 0.5em rgba(124, 191, 206, 0.5);
+}
+
+.title {
+    font-size: 4em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 1em;
+    color: transparent;
+    background-image: linear-gradient(to bottom, #00aefd, #ffa400);
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: 0.5em 0.5em 1em #899e9e;
+}
+
+.background {
+    display: block;
+    width: 90%;
+    height: 60em;
+    margin: 0 auto;
+    object-fit: cover;
+    object-position: right;
+    border-radius: 5em;
+}
+
+li {
+    margin: 0 auto;
+    font-size: 5em;
+    font-weight: 700;
+}
+
+li:first-child {
+    color: red;
+}
+li:nth-child(odd){
+    color: var(--primary-color);
+}
+li:last-child{
+    color: aquamarine;
+}
+li:nth-child(odd){
+    color:bisque;
+}
+li:not(:first-child){
+    color: aquamarine;
+}
