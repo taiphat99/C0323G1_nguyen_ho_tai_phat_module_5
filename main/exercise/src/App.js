@@ -11,13 +11,13 @@ import Example from './components/ss4/Example';
 function App() {
   return (
     <div>
-      {/* <ToDoList/>
-      <StudentList/> */}
+      <ToDoList/>
+      {/* <StudentList/> */}
 
       {/* <Counter/> */}
 
-      <Selector/>
-      <Example/>
+      {/* <Selector/>
+      <Example/> */}
     </div>
   );
 }

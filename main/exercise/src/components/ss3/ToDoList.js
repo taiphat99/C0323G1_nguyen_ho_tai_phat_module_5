@@ -15,15 +15,17 @@ class ToDoList extends Component {
 
   addTask(){
     let input = document.getElementById("input").value;
-    this.setState({
-        toDoList : [...this.state.toDoList,input],
-    })
+    if(input.trim() !==""){
+    this.setState((pre) =>({
+        toDoList : [...pre.toDoList,input],
+        task : ""
+    }))}
   }
 
   render() {
     return (
       <>
-        <input id="input"></input>
+        <input value={this.task} id="input"></input>
         <button onClick={() => this.addTask()}>Add</button>
         <ul>
             {

@@ -23,8 +23,8 @@ class StudentList extends Component {
           </tr>
           {this.state.studentList.map((element, index) => {
             return (
-              <tr>
-                <td key={index}>{element.id}</td>
+              <tr key={index}>
+                <td >{element.id}</td>
                 <td>{element.name}</td>
                 <td>{element.address}</td>
               </tr>
