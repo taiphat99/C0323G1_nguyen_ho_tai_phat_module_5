@@ -1,24 +1,19 @@
 
+import { ToastContainer, toast } from 'react-toastify';
 import './App.css';
-import ToDoList from './components/ss3/ToDoList';
-import StudentList from './components/ss3/StudentList';
-import Counter from './components/ss4/Count';
-import Selector from './components/ss4/Selector';
-import Example from './components/ss4/Example';
-
+import SignUp from './components/ss5/SignUp';
+import 'react-toastify/dist/ReactToastify.css';
+import HealthDeclaration from './components/ss5/HealthDeclaration';
+import 'bootstrap/dist/css/bootstrap.css'
 
 
 function App() {
   return (
-    <div>
-      <ToDoList/>
-      {/* <StudentList/> */}
-
-      {/* <Counter/> */}
-
-      {/* <Selector/>
-      <Example/> */}
-    </div>
+    <>
+    {/* <Contract/> */}
+    <HealthDeclaration/>
+    <ToastContainer />
+    </>
   );
 }
 
