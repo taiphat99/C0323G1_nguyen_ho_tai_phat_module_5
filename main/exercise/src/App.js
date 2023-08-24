@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import Book from './components/ss7/book/Book';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import BookAdding from './components/ss7/book/BookAdding';
+import Contract from './components/ss5/Contact';
 
 
 function App() {
@@ -14,10 +15,12 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Book />} />
-          <Route path="add" element={<BookAdding />} />
+          <Route path="/" element={<Book/>} />
+          <Route path="add" element={<BookAdding/>} />
         </Routes>
       </BrowserRouter>
+
+
       <ToastContainer />
     </>
   );

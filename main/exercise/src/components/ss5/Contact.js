@@ -4,8 +4,8 @@ import * as Yup from "yup";
 import { toast } from "react-toastify";
 
 
-const Contract = () => {
-    
+function Contact() {
+
     const formik = useFormik({
         initialValues: {
             name: '',
@@ -13,7 +13,7 @@ const Contract = () => {
             phone: '',
             message: '',
         },
-        
+
         validationSchema: Yup.object({
             name: Yup.string()
                 .required('Need to be filled!'),
@@ -28,17 +28,17 @@ const Contract = () => {
         onSubmit: () => {
             toast.success('Success', {
                 position: toast.POSITION.TOP_RIGHT
-            })
+            });
         }
-    })
+    });
 
 
     return (
         <>
             <div>
-                <h1>Contract Form</h1>
+                <h1>Contact Form</h1>
                 <form onSubmit={formik.handleSubmit}>
-                    <div >
+                    <div>
                         <div>Name</div>
                         <input type='text' name='name' value={formik.values.name}
                             onChange={formik.handleChange} />
@@ -46,7 +46,7 @@ const Contract = () => {
                             <small className='error'>{formik.errors.name}</small>
                         )}
                     </div>
-                    <div >
+                    <div>
                         <div>Email</div>
                         <input type='text' name='email' value={formik.values.email}
                             onChange={formik.handleChange} />
@@ -54,7 +54,7 @@ const Contract = () => {
                             <small className='error'>{formik.errors.email}</small>
                         )}
                     </div>
-                    <div >
+                    <div>
                         <div>Phone</div>
                         <input type='text' name='phone' value={formik.values.phone}
                             onChange={formik.handleChange} />
@@ -62,7 +62,7 @@ const Contract = () => {
                             <small className='error'>{formik.errors.phone}</small>
                         )}
                     </div>
-                    <div >
+                    <div>
                         <div>Message</div>
                         <textarea type='text' name='message' value={formik.values.message}
                             onChange={formik.handleChange} />
@@ -72,11 +72,11 @@ const Contract = () => {
                     </div>
 
 
-                    <button type="submit" >Submit</button>
+                    <button type="submit">Submit</button>
                 </form>
             </div>
 
         </>
     );
 }
-export default Contract;
+export default Contact;

@@ -15,7 +15,7 @@ const BookAdding = () => {
 
 
     const formik = useFormik({
-        initialValue: {
+        initialValues: {
             title: "",
             quantity: "",
         },
@@ -35,6 +35,8 @@ const BookAdding = () => {
         }
     })
 
+  
+
 
     return (
         <div className='container mt-5'>
@@ -51,7 +53,7 @@ const BookAdding = () => {
                 {formik.errors.quantity && formik.touched.quantity && (
                     <small className='error'>{formik.errors.quantity}</small>
                 )}
-                <a type='submit' className='btn btn-outline-primary mx-5'>Add</a>
+                <div><button type='submit' className='btn btn-outline-primary mx-5'>Add</button></div>  
             </form>
         </div>
     );
