@@ -5,6 +5,7 @@ import { toast } from "react-toastify";
 
 
 const Contract = () => {
+    
     const formik = useFormik({
         initialValues: {
             name: '',
@@ -12,6 +13,7 @@ const Contract = () => {
             phone: '',
             message: '',
         },
+        
         validationSchema: Yup.object({
             name: Yup.string()
                 .required('Need to be filled!'),
@@ -22,7 +24,6 @@ const Contract = () => {
                 .required('Need to be filled!'),
             message: Yup.string()
                 .required('Need to be filled!'),
-
         }),
         onSubmit: () => {
             toast.success('Success', {

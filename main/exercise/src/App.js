@@ -1,18 +1,24 @@
 
 import { ToastContainer, toast } from 'react-toastify';
 import './App.css';
-import SignUp from './components/ss5/SignUp';
+
 import 'react-toastify/dist/ReactToastify.css';
-import HealthDeclaration from './components/ss5/HealthDeclaration';
 import 'bootstrap/dist/css/bootstrap.css'
+import Book from './components/ss7/book/Book';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import BookAdding from './components/ss7/book/BookAdding';
 
 
 function App() {
   return (
     <>
-    {/* <Contract/> */}
-    <HealthDeclaration/>
-    <ToastContainer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Book />} />
+          <Route path="add" element={<BookAdding />} />
+        </Routes>
+      </BrowserRouter>
+      <ToastContainer />
     </>
   );
 }
