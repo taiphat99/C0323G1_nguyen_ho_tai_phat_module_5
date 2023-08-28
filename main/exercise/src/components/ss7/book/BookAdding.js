@@ -8,9 +8,9 @@ import { toast } from "react-toastify";
 const BookAdding = () => {
     const navigate = useNavigate();
 
-    const addBook = async (values) => {
-        await bookService.addToList(values)
-        navigate("/")
+    const addBook = async (value) => {
+        await bookService.addToList(value)
+        navigate("/books")
     }
 
 
@@ -26,16 +26,15 @@ const BookAdding = () => {
                 .required('Required')
                 .min(0, 'Can not < 0')
         }),
-        onSubmit: async (values) => {
-            console.log(values)
-            await addBook(values)
-            toast.success('Add successfully', {
+        onSubmit: async (value) => {
+            console.log(value)
+            await addBook(value)
+            toast.success(`${value.title} added`, {
                 position: toast.POSITION.TOP_RIGHT
             })
         }
     })
 
-  
 
 
     return (
