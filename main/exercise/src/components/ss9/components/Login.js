@@ -30,7 +30,7 @@ function Login() {
 
   return (
     <form>
-      <label>User name</label>
+      <label>Username</label>
       <input
         id="username"
         onChange={e => setValueForUser("username", e.target.value)}

@@ -1,5 +1,5 @@
 import axios from "axios";
-import { put, takeLatest } from "redux-saga/effects";
+import { call, put, takeLatest } from "redux-saga/effects";
 import {
   FETCH_USER,
   FETCH_USER_SUCCESS,
@@ -8,12 +8,13 @@ import {
   DELETE_USER
 } from "../redux/Action";
 
-const BaseURL = "https://jsonplaceholder.typicode.com/users";
+const BASE_URL = "https://jsonplaceholder.typicode.com/users";
 
-function* getUser(action) {
+function* getUser() {
   // console.log(5);
   try {
-    const response = yield axios.get(BaseURL);
+    const response = yield axios.get(BASE_URL
+    );
     console.log(response);
     // Sau khi lấy được dữ liệu từ fake API
     // Dispatch một action tới reducer kèm theo dữ liệu mà API trả về
@@ -36,10 +37,12 @@ function* authSagaFun(action) {
 function* deleteUser(action) {
   try {
     // console.log(7)
-    console.log(action);
-    const newURL = BaseURL + `/${action.payload}`;
-    const status = yield axios.delete(newURL);
-    alert(status.status);
+    const newURL = BASE_URL
+   + `/${action.payload}`;
+    const object = yield axios.delete(newURL);
+    yield call(getUser);
+
+    alert(object.status);
   } catch (e) {
     console.log('delete function : ' + e);
   }
