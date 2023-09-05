@@ -1,9 +1,11 @@
 import React from "react";
 
-function CustomerEditing(){
+function CustomerEditing() {
 
-    return (
-        <div className>
+  return (
+
+    <div className="cus-container">
+      <div className>
         <h1>Chỉnh sửa khách hàng</h1>
         <div>Tên</div>
         <input type="text" name="name" />
@@ -33,6 +35,7 @@ function CustomerEditing(){
         <div>Địa chỉ</div>
         <input type="text" name="address" />
       </div>
-    )
+    </div>
+  )
 }
 export default CustomerEditing;

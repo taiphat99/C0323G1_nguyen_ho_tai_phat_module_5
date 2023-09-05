@@ -1,304 +1,459 @@
 {
-    "services": [
-        {
-            "id": 1,
-            "name": "Villa",
-            "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-            "area": 100,
-            "cost": 2000,
-            "max_capacity": 10,
-            "renting_type": "daily"
-        },
-        {
-            "id": 2,
-            "name": "House",
-            "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-            "area": 80,
-            "cost": 1600,
-            "max_capacity": 5,
-            "renting_type": "daily"
-        },
-        {
-            "id": 3,
-            "name": "Villa",
-            "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-            "area": 100,
-            "cost": 2000,
-            "max_capacity": 10,
-            "renting_type": "daily"
-        },
-        {
-            "id": 4,
-            "name": "Villa",
-            "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-            "area": 100,
-            "cost": 2000,
-            "max_capacity": 10,
-            "renting_type": "daily"
-        },
-        {
-            "id": 5,
-            "name": "Villa",
-            "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-            "area": "100",
-            "cost": "2000",
-            "max_capacity": "10",
-            "renting_type": "daily"
-        },
-        {
-            "id": 6,
-            "name": "Room",
-            "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-            "area": 50,
-            "cost": 900,
-            "max_capacity": 2,
-            "renting_type": "monthly"
-        },
-        {
-            "id": 7,
-            "name": "Villa",
-            "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-            "area": 100,
-            "cost": 2000,
-            "max_capacity": 10,
-            "renting_type": "daily"
-        },
-        {
-            "id": 8,
-            "name": "Room",
-            "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-            "area": 56,
-            "cost": 800,
-            "max_capacity": 2,
-            "renting_type": "monthly"
-        },
-        {
-            "id": 9,
-            "name": "Villa",
-            "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-            "area": 100,
-            "cost": 2000,
-            "max_capacity": 10,
-            "renting_type": "daily"
-        },
-        {
-            "id": 10,
-            "name": "Villa",
-            "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-            "area": 100,
-            "cost": 2000,
-            "max_capacity": 10,
-            "renting_type": "daily"
-        }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Danny",
-            "dob": "19/09/1999",
-            "gender": true,
-            "identity_number": "1974516789",
-            "phone": "0964510859",
-            "email": "danny@gmail.com",
-            "customer_type": "Diamond",
-            "address": "Da Nang"
-        },
-        {
-            "id": 2,
-            "name": "Danny",
-            "dob": "19/09/1999",
-            "gender": true,
-            "identity_number": "1974516789",
-            "phone": "0964510859",
-            "email": "danny@gmail.com",
-            "customer_type": "Diamond",
-            "address": "Da Nang"
-        },
-        {
-            "id": 3,
-            "name": "Danny",
-            "dob": "19/09/1999",
-            "gender": true,
-            "identity_number": "1974516789",
-            "phone": "0964510859",
-            "email": "danny@gmail.com",
-            "customer_type": "Diamond",
-            "address": "Da Nang"
-        },
-        {
-            "id": 4,
-            "name": "Danny",
-            "dob": "19/09/1999",
-            "gender": true,
-            "identity_number": "1974516789",
-            "phone": "0964510859",
-            "email": "danny@gmail.com",
-            "customer_type": "Diamond",
-            "address": "Da Nang"
-        },
-        {
-            "id": 1,
-            "name": "Louis",
-            "dob": "19/09/1999",
-            "gender": true,
-            "identity_number": "1974516789",
-            "phone": "0964510859",
-            "email": "danny@gmail.com",
-            "customer_type": "Diamond",
-            "address": "Da Nang"
-        },
-        {
-            "id": 5,
-            "name": "Danny",
-            "dob": "19/09/1999",
-            "gender": true,
-            "identity_number": "1974516789",
-            "phone": "0964510859",
-            "email": "danny@gmail.com",
-            "customer_type": "Diamond",
-            "address": "Da Nang"
-        },
-        {
-            "id": 6,
-            "name": "Danny",
-            "dob": "19/09/1999",
-            "gender": true,
-            "identity_number": "1974516789",
-            "phone": "0964510859",
-            "email": "danny@gmail.com",
-            "customer_type": "Diamond",
-            "address": "Da Nang"
-        },
-        {
-            "id": 7,
-            "name": "Danny",
-            "dob": "19/09/1999",
-            "gender": true,
-            "identity_number": "1974516789",
-            "phone": "0964510859",
-            "email": "danny@gmail.com",
-            "customer_type": "Diamond",
-            "address": "Da Nang"
-        },
-        {
-            "id": 8,
-            "name": "Chunky",
-            "dob": "19/09/1999",
-            "gender": true,
-            "identity_number": "1974516789",
-            "phone": "0978567567",
-            "email": "danny@gmail.com",
-            "customer_type": "Diamond",
-            "address": "Da Nang"
-        },
-        {
-            "id": 9,
-            "name": "Danny",
-            "dob": "19/09/1999",
-            "gender": true,
-            "identity_number": "1974516789",
-            "phone": "0964510859",
-            "email": "danny@gmail.com",
-            "customer_type": "Diamond",
-            "address": "Da Nang"
-        }
-    ],
-    "contracts": [
-        {
-            "id": 1,
-            "contract_code": "HD09",
-            "start_date": "09/08/2023",
-            "end_date": "12/08/2023",
-            "deposit": 500,
-            "total_money": 1500
-        },
-        {
-            "id": 2,
-            "contract_code": "HD09",
-            "start_date": "09/08/2023",
-            "end_date": "12/08/2023",
-            "deposit": 500,
-            "total_money": 1500
-        },
-        {
-            "id": 3,
-            "contract_code": "HD09",
-            "start_date": "09/08/2023",
-            "end_date": "12/08/2023",
-            "deposit": 500,
-            "total_money": 1500
-        },
-        {
-            "id": 4,
-            "contract_code": "HD09",
-            "start_date": "09/08/2023",
-            "end_date": "12/08/2023",
-            "deposit": 500,
-            "total_money": 1500
-        },
-        {
-            "id": 5,
-            "contract_code": "HD09",
-            "start_date": "09/08/2023",
-            "end_date": "12/08/2023",
-            "deposit": 500,
-            "total_money": 1500
-        },
-        {
-            "id": 6,
-            "contract_code": "HD09",
-            "start_date": "09/08/2023",
-            "end_date": "12/08/2023",
-            "deposit": 500,
-            "total_money": 1500
-        },
-        {
-            "id": 7,
-            "contract_code": "HD09",
-            "start_date": "09/08/2023",
-            "end_date": "12/08/2023",
-            "deposit": 500,
-            "total_money": 1500
-        },
-        {
-            "id": 8,
-            "contract_code": "HD09",
-            "start_date": "09/08/2023",
-            "end_date": "12/08/2023",
-            "deposit": 500,
-            "total_money": 1500
-        },
-        {
-            "id": 9,
-            "contract_code": "HD09",
-            "start_date": "09/08/2023",
-            "end_date": "12/08/2023",
-            "deposit": 500,
-            "total_money": 1500
-        },
-        {
-            "id": 10,
-            "contract_code": "HD09",
-            "start_date": "09/08/2023",
-            "end_date": "12/08/2023",
-            "deposit": 500,
-            "total_money": 1500
-        },
-        {
-            "id": 11,
-            "contract_code": "HD09",
-            "start_date": "09/08/2023",
-            "end_date": "12/08/2023",
-            "deposit": 500,
-            "total_money": 1500
-        },
-        {
-            "id": 12,
-            "contract_code": "HD09",
-            "start_date": "09/08/2023",
-            "end_date": "12/08/2023",
-            "deposit": 500,
-            "total_money": 1500
-        }
-    ]
+  "services": [
+    {
+      "id": 1,
+      "name": "Villa",
+      "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "area": 100,
+      "cost": 2000,
+      "max_capacity": 10,
+      "renting_type": "daily"
+    },
+    {
+      "id": 2,
+      "name": "House",
+      "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "area": 80,
+      "cost": 1600,
+      "max_capacity": 5,
+      "renting_type": "daily"
+    },
+    {
+      "id": 3,
+      "name": "Villa",
+      "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "area": 100,
+      "cost": 2000,
+      "max_capacity": 10,
+      "renting_type": "daily"
+    },
+    {
+      "id": 4,
+      "name": "Villa",
+      "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "area": 100,
+      "cost": 2000,
+      "max_capacity": 10,
+      "renting_type": "daily"
+    },
+    {
+      "id": 5,
+      "name": "Villa",
+      "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "area": "100",
+      "cost": "2000",
+      "max_capacity": "10",
+      "renting_type": "daily"
+    },
+    {
+      "id": 6,
+      "name": "Room",
+      "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "area": 50,
+      "cost": 900,
+      "max_capacity": 2,
+      "renting_type": "monthly"
+    },
+    {
+      "id": 7,
+      "name": "Villa",
+      "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "area": 100,
+      "cost": 2000,
+      "max_capacity": 10,
+      "renting_type": "daily"
+    },
+    {
+      "id": 8,
+      "name": "Room",
+      "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "area": 56,
+      "cost": 800,
+      "max_capacity": 2,
+      "renting_type": "monthly"
+    },
+    {
+      "id": 9,
+      "name": "Villa",
+      "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "area": 100,
+      "cost": 2000,
+      "max_capacity": 10,
+      "renting_type": "daily"
+    },
+    {
+      "id": 10,
+      "name": "Villa",
+      "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "area": 100,
+      "cost": 2000,
+      "max_capacity": 10,
+      "renting_type": "daily"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Kell",
+      "dob": "19/09/1999",
+      "gender": true,
+      "identity_number": "1974516789",
+      "phone": "0964510859",
+      "email": "danny@gmail.com",
+      "customer_type": {
+        "id": 1,
+        "name": "Member"
+      },
+      "address": "Da Nang"
+    },
+    {
+      "id": 2,
+      "name": "Kell",
+      "dob": "19/09/1999",
+      "gender": true,
+      "identity_number": "1974516789",
+      "phone": "0964510859",
+      "email": "danny@gmail.com",
+      "customer_type": {
+        "id": 1,
+        "name": "Member"
+      },
+      "address": "Da Nang"
+    },
+    {
+      "id": 3,
+      "name": "Kell",
+      "dob": "19/09/1999",
+      "gender": true,
+      "identity_number": "1974516789",
+      "phone": "0964510859",
+      "email": "danny@gmail.com",
+      "customer_type": {
+        "id": 1,
+        "name": "Member"
+      },
+      "address": "Da Nang"
+    },
+    {
+      "id": 4,
+      "name": "Kell",
+      "dob": "19/09/1999",
+      "gender": true,
+      "identity_number": "1974516789",
+      "phone": "0964510859",
+      "email": "danny@gmail.com",
+      "customer_type": {
+        "id": 1,
+        "name": "Member"
+      },
+      "address": "Da Nang"
+    },
+    {
+      "id": 5,
+      "name": "Kell",
+      "dob": "19/09/1999",
+      "gender": true,
+      "identity_number": "1974516789",
+      "phone": "0964510859",
+      "email": "danny@gmail.com",
+      "customer_type": {
+        "id": 1,
+        "name": "Member"
+      },
+      "address": "Da Nang"
+    },
+    {
+      "id": 6,
+      "name": "Kell",
+      "dob": "19/09/1999",
+      "gender": true,
+      "identity_number": "1974516789",
+      "phone": "0964510859",
+      "email": "danny@gmail.com",
+      "customer_type": {
+        "id": 1,
+        "name": "Member"
+      },
+      "address": "Da Nang"
+    },
+    {
+      "id": 7,
+      "name": "Danny",
+      "dob": "19/09/1999",
+      "gender": true,
+      "identity_number": "1974516789",
+      "phone": "0964510859",
+      "email": "danny@gmail.com",
+      "customer_type": {
+        "id": 2,
+        "name": "Silver"
+      },
+      "address": "Da Nang"
+    },
+    {
+      "id": 9,
+      "name": "Heuos",
+      "dob": "19/09/1999",
+      "gender": true,
+      "identity_number": "1974516789",
+      "phone": "0964510859",
+      "email": "danny@gmail.com",
+      "customer_type": "Diamond",
+      "address": "Da Nang"
+    },
+    {
+      "id": 10,
+      "name": "Danny",
+      "dob": "19/09/1999",
+      "gender": true,
+      "identity_number": "1974516789",
+      "phone": "0964510859",
+      "email": "danny@gmail.com",
+      "customer_type": "Diamond",
+      "address": "Da Nang"
+    },
+    {
+      "id": 12,
+      "name": "Danny",
+      "dob": "19/09/1999",
+      "gender": true,
+      "identity_number": "1974516789",
+      "phone": "0964510859",
+      "email": "danny@gmail.com",
+      "customer_type": {
+        "id": 3,
+        "name": "Gold"
+      },
+      "address": "Da Nang"
+    },
+    {
+      "id": 11,
+      "name": "Kenny",
+      "dob": "19/09/1999",
+      "gender": true,
+      "identity_number": "1974516789",
+      "phone": "0964510859",
+      "email": "danny@gmail.com",
+      "customer_type": {
+        "id": 1,
+        "name": "Member"
+      },
+      "address": "Da Nang"
+    },
+    {
+      "id": 13,
+      "name": "Danny",
+      "dob": "19/09/1999",
+      "gender": true,
+      "identity_number": "1974516789",
+      "phone": "0964510859",
+      "email": "danny@gmail.com",
+      "customer_type": {
+        "id": 2,
+        "name": "Silver"
+      },
+      "address": "Da Nang"
+    },
+    {
+      "id": 14,
+      "name": "Louis",
+      "dob": "19/09/1999",
+      "gender": true,
+      "identity_number": "1974516789",
+      "phone": "0964510859",
+      "email": "danny@gmail.com",
+      "customer_type": "Diamond",
+      "address": "Da Nang"
+    },
+    {
+      "id": 16,
+      "name": "Jayce",
+      "dob": "19/09/1999",
+      "gender": true,
+      "identity_number": "1974516789",
+      "phone": "0964510859",
+      "email": "danny@gmail.com",
+      "customer_type": {
+        "id": 1,
+        "name": "Member"
+      },
+      "address": "Da Nang"
+    },
+    {
+      "id": 17,
+      "name": "Danny",
+      "dob": "19/09/1999",
+      "gender": true,
+      "identity_number": "1974516789",
+      "phone": "0964510859",
+      "email": "danny@gmail.com",
+      "customer_type": {
+        "id": 1,
+        "name": "Member"
+      },
+      "address": "Da Nang"
+    },
+    {
+      "id": 19,
+      "name": "Danny",
+      "dob": "19/09/1999",
+      "gender": true,
+      "identity_number": "1974516789",
+      "phone": "0964510859",
+      "email": "danny@gmail.com",
+      "customer_type": {
+        "id": 4,
+        "name": "Platinum"
+      },
+      "address": "Da Nang"
+    },
+    {
+      "id": 20,
+      "name": "Neddy",
+      "dob": "19/09/1999",
+      "gender": true,
+      "identity_number": "1974516789",
+      "phone": "0964510859",
+      "email": "danny@gmail.com",
+      "customer_type": {
+        "id": 4,
+        "name": "Platinum"
+      },
+      "address": "Da Nang"
+    },
+    {
+      "id": 21,
+      "name": "Noody",
+      "dob": "19/09/1999",
+      "gender": true,
+      "identity_number": "1974516789",
+      "phone": "0964510859",
+      "email": "danny@gmail.com",
+      "customer_type": {
+        "id": 5,
+        "name": "Diamond"
+      },
+      "address": "Da Nang"
+    }
+  ],
+  "contracts": [
+    {
+      "id": 1,
+      "contract_code": "HD09",
+      "start_date": "09/08/2023",
+      "end_date": "12/08/2023",
+      "deposit": 500,
+      "total_money": 1500
+    },
+    {
+      "id": 2,
+      "contract_code": "HD09",
+      "start_date": "09/08/2023",
+      "end_date": "12/08/2023",
+      "deposit": 500,
+      "total_money": 1500
+    },
+    {
+      "id": 3,
+      "contract_code": "HD09",
+      "start_date": "09/08/2023",
+      "end_date": "12/08/2023",
+      "deposit": 500,
+      "total_money": 1500
+    },
+    {
+      "id": 4,
+      "contract_code": "HD09",
+      "start_date": "09/08/2023",
+      "end_date": "12/08/2023",
+      "deposit": 500,
+      "total_money": 1500
+    },
+    {
+      "id": 5,
+      "contract_code": "HD09",
+      "start_date": "09/08/2023",
+      "end_date": "12/08/2023",
+      "deposit": 500,
+      "total_money": 1500
+    },
+    {
+      "id": 6,
+      "contract_code": "HD09",
+      "start_date": "09/08/2023",
+      "end_date": "12/08/2023",
+      "deposit": 500,
+      "total_money": 1500
+    },
+    {
+      "id": 7,
+      "contract_code": "HD09",
+      "start_date": "09/08/2023",
+      "end_date": "12/08/2023",
+      "deposit": 500,
+      "total_money": 1500
+    },
+    {
+      "id": 8,
+      "contract_code": "HD09",
+      "start_date": "09/08/2023",
+      "end_date": "12/08/2023",
+      "deposit": 500,
+      "total_money": 1500
+    },
+    {
+      "id": 9,
+      "contract_code": "HD09",
+      "start_date": "09/08/2023",
+      "end_date": "12/08/2023",
+      "deposit": 500,
+      "total_money": 1500
+    },
+    {
+      "id": 10,
+      "contract_code": "HD09",
+      "start_date": "09/08/2023",
+      "end_date": "12/08/2023",
+      "deposit": 500,
+      "total_money": 1500
+    },
+    {
+      "id": 11,
+      "contract_code": "HD09",
+      "start_date": "09/08/2023",
+      "end_date": "12/08/2023",
+      "deposit": 500,
+      "total_money": 1500
+    },
+    {
+      "id": 12,
+      "contract_code": "HD09",
+      "start_date": "09/08/2023",
+      "end_date": "12/08/2023",
+      "deposit": 500,
+      "total_money": 1500
+    }
+  ],
+  "customer_type": [
+    {
+      "id": 1,
+      "name": "Member"
+    },
+    {
+      "id": 2,
+      "name": "Silver"
+    },
+    {
+      "id": 3,
+      "name": "Gold"
+    },
+    {
+      "id": 4,
+      "name": "Platinum"
+    },
+    {
+      "id": 5,
+      "name": "Diamond"
+    }
+  ]
 }

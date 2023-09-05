@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-export default function home ({result}) {
+export default function Home ({result}) {
     console.log(result);
     return (
         <div>   
@@ -20,8 +20,8 @@ export default function home ({result}) {
                 {
                     result.map(item => 
                     (
-                        <tbody key={item.id}>
-                        <tr>
+                        <tbody>
+                        <tr key={item.id}>
                             <td>{item.id}</td>
                             <td>{item.date}</td>
                             <td>{item.confirmed}</td>

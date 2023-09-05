@@ -29,8 +29,6 @@ function User() {
   const confirmDelete = async (id) => {
      dispatch({ type: "DELETE_USER", payload: id })
     handleCloseModal();
-     dispatch({ type: "FETCH_USER"})
-
   }
 
 

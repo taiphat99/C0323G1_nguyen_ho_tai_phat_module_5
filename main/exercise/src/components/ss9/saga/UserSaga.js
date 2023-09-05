@@ -8,7 +8,7 @@ import {
   DELETE_USER
 } from "../redux/Action";
 
-const BASE_URL = "https://jsonplaceholder.typicode.com/users";
+const BASE_URL = "http://localhost:8000/users";
 
 function* getUser() {
   // console.log(5);

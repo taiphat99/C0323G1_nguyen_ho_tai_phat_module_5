@@ -1,0 +1,45 @@
+<MDBContainer>
+    <div class="text-center mt-4">
+        <h2 class="">Customer List</h2>
+        <div class="my-3 d-flex justify-content-between">
+            <MDBBtn class='me-1 d-content' color='success'>
+                <Link to="add"><MDBIcon fas icon="user-plus" ></MDBIcon></Link>
+            </MDBBtn>
+            <div class="d-inline-block w-25 h-100 position-relative" >
+                <MDBInput  label='Seach' id='form1' type='text'/>
+                <MDBIcon class="position-absolute"  fas icon="search" size="lg" />
+
+            </div>
+        </div>
+        <MDBRow>
+            <MDBCol size="12">
+                <div >
+                <MDBTable >
+                    <MDBTableHead className="table-success">
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Date Of Birth</th>
+                            <th scope="col">Gender</th>
+                            <th scope="col">Card ID</th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                        </tr>
+                    </MDBTableHead>
+                    <MDBTableBody>
+
+                        <tr >
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><MDBBtn className='me-1' color='danger' >Delete</MDBBtn></td>
+                        </tr>
+                    </MDBTableBody>
+                </MDBTable>
+    </div>
+    </MDBCol>
+
+    </MDBRow>
+    </div>

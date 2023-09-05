@@ -1,0 +1,88 @@
+{
+  "cloths": [
+    {
+      "id": 1,
+      "name": "Jean 1",
+      "date": "01/09/2023",
+      "quantity": 12,
+      "type": {
+        "id": 1,
+        "name": "Pant"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Jean 2",
+      "date": "01/09/2023",
+      "quantity": 12,
+      "type": {
+        "id": 1,
+        "name": "Pant"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Jordan",
+      "date": "01/06/2023",
+      "quantity": 62,
+      "type": {
+        "id": 3,
+        "name": "Sneaker"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Stan Smith",
+      "date": "02/06/2023",
+      "quantity": 12,
+      "type": {
+        "id": 1,
+        "name": "Sneaker"
+      }
+    },
+    {
+      "id": 5,
+      "name": "T-Shirt 1",
+      "date": "01/09/2023",
+      "quantity": 12,
+      "type": {
+        "id": 2,
+        "name": "Shirt"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Tommy Teo",
+      "date": "01/09/2023",
+      "quantity": 12,
+      "type": {
+        "id": 2,
+        "name": "Shirt"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Loki",
+      "date": "01/09/2023",
+      "quantity": 12,
+      "type": {
+        "id": 1,
+        "name": "Pant"
+      }
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "name": "Pant"
+    },
+    {
+      "id": 2,
+      "name": "Shirt"
+    },
+    {
+      "id": 3,
+      "name": "Sneaker"
+    }
+  ]
+}
