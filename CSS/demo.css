@@ -1,7 +1,4 @@
-:root {
-    --primary-color: #00aefd;
-    --secondary-color: #ffa400;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;1,100;1,200;1,300;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 html,
 body,
@@ -84,12 +81,12 @@ time,
 mark,
 audio,
 video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -104,99 +101,177 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+  display: block;
 }
 
 body {
-    line-height: 1;
+  line-height: 1;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 14px;
 }
 
 ol,
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 blockquote,
 q {
-    quotes: none;
+  quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: '';
-    content: none;
+  content: "";
+  content: none;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-
+/* Declaring common variables */
+:root {
+  --primary-color: #00aefd;
+  --secondary-color: #ffa400;
+}
 
 * {
-    box-sizing: border-box;
-}
-
-body {
-    font-size: 62.5%;
-    font-family: 'Poppins', sans-serif;
-
-}
-
-.box {
-    width: 20em;
-    height: 20em;
-    background-image: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    box-shadow: 0.5em 0.5em 1em 0.5em rgba(124, 191, 206, 0.5);
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 .title {
-    font-size: 4em;
-    font-weight: 600;
-    display: inline-block;
-    padding: 1em;
-    color: transparent;
-    background-image: linear-gradient(to bottom, #00aefd, #ffa400);
-    -webkit-background-clip: text;
-    background-clip: text;
-    text-shadow: 0.5em 0.5em 1em #899e9e;
+  font-size: 4em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 1em;
+  color: transparent;
+  background-image: linear-gradient(to bottom, #00aefd, #ffa400);
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow: 0.5em 0.5em 1em #899e9e;
 }
 
 .background {
-    display: block;
-    width: 90%;
-    height: 60em;
-    margin: 0 auto;
-    object-fit: cover;
-    object-position: right;
-    border-radius: 5em;
+  display: block;
+  width: calc(100% - 200px);
+  height: 600px;
+  margin: 0 100px;
+  object-fit: cover;
+  object-position: right;
+  border-radius: 40px;
 }
 
 li {
-    margin: 0 auto;
-    font-size: 5em;
-    font-weight: 700;
+  margin: 0 auto;
+  font-size: 5em;
+  font-weight: 700;
 }
 
 li:first-child {
-    color: red;
+  color: red;
 }
-li:nth-child(odd){
-    color: var(--primary-color);
+li:nth-child(odd) {
+  color: var(--primary-color);
 }
-li:last-child{
-    color: aquamarine;
+li:last-child {
+  color: aquamarine;
 }
-li:nth-child(odd){
-    color:bisque;
+li:nth-child(odd) {
+  color: bisque;
 }
-li:not(:first-child){
-    color: aquamarine;
+li:not(:first-child) {
+  color: aquamarine;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: calc((100% - 1080px) / 2);
+  row-gap: 50px;
+  margin: 50px 100px;
+}
+.card {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  flex: 1;
+}
+.card-title {
+  width: 60%;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card-user {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+}
+.card-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.card-bottom {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-top: #899e9e 1px solid;
+  align-items: center;
+}
+.user {
+  display: flex;
+}
+
+.user ion-icon {
+  font-size: initial;
+  color: green;
+  margin-left: 3px;
+}
+.card-user-info {
+  margin-left: 10px;
+  line-height: 1.4;
+  flex: 1;
+}
+.live ion-icon {
+  font-size: 13px;
+  margin-right: 3px;
+}
+.game {
+  font-size: 13px;
+  color: #899e9e;
+}
+.live {
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  background-color: rgb(244, 139, 20);
+  border-radius: 6px;
 }

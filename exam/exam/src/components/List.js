@@ -8,9 +8,9 @@ const List = () => {
     const [data, setData] = useState();
     const [searchName, setSearchName] = useState("");
     const [refresh, setRefresh] = useState(false);
-    const [currentPage,setCurrentPage] = useState(0);
-    const [totalPages,setTotalPages] = useState();
-    const [records,setRecords] = useState("");
+    const [currentPage, setCurrentPage] = useState(0);
+    const [totalPages, setTotalPages] = useState();
+    const [records, setRecords] = useState("");
 
     const limit = 5;
     useEffect(() => {
@@ -19,7 +19,7 @@ const List = () => {
 
 
     const loadData = async () => {
-        const result = await getAll(searchName,currentPage,limit);
+        const result = await getAll(searchName, currentPage, limit);
         setData(result.content);
         const totalPages = result.totalPages;
         setTotalPages(totalPages);
@@ -68,7 +68,7 @@ const List = () => {
                             <div style={{ minHeight: "450px" }}>
                                 <MDBTable >
                                     <MDBTableHead className="table-success">
-                                        <tr style={{padding: "30px"}}>
+                                        <tr style={{ padding: "30px" }}>
                                             <th scope="col">ID</th>
                                             <th scope="col">Name</th>
                                             <th scope="col">Date</th>
@@ -106,25 +106,25 @@ const List = () => {
 
 
                 <nav className="d-flex justify-content-center">
-            <span className="result-style">Result: <b>{records}</b> record(s)</span>
-                <MDBPagination className='mb-0'>
-                    <MDBPaginationItem className={`${currentPage+1 <= 1 ? "disabled" : ""}`}>
-                        <MDBPaginationLink onClick={() => prePage()} tabIndex={-1} >
-                            Previous
-                        </MDBPaginationLink>
-                    </MDBPaginationItem>
+                    <span className="result-style">Result: <b>{records}</b> record(s)</span>
+                    <MDBPagination className='mb-0'>
+                        <MDBPaginationItem className={`${currentPage + 1 <= 1 ? "disabled" : ""}`}>
+                            <MDBPaginationLink onClick={() => prePage()} tabIndex={-1} >
+                                Previous
+                            </MDBPaginationLink>
+                        </MDBPaginationItem>
 
-                    <MDBPaginationItem active aria-current='page'>
-                        <MDBPaginationLink>
-                            {currentPage+1}
-                        </MDBPaginationLink>
-                    </MDBPaginationItem>
+                        <MDBPaginationItem active aria-current='page'>
+                            <MDBPaginationLink>
+                                {currentPage + 1}
+                            </MDBPaginationLink>
+                        </MDBPaginationItem>
 
-                    <MDBPaginationItem className={`${currentPage+1 >= totalPages ? "disabled" : ""}`}>
-                        <MDBPaginationLink onClick={() => nextPage()}>Next</MDBPaginationLink>
-                    </MDBPaginationItem>
-                </MDBPagination>
-            </nav>
+                        <MDBPaginationItem className={`${currentPage + 1 >= totalPages ? "disabled" : ""}`}>
+                            <MDBPaginationLink onClick={() => nextPage()}>Next</MDBPaginationLink>
+                        </MDBPaginationItem>
+                    </MDBPagination>
+                </nav>
             </MDBContainer>
         </div>
     );

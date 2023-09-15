@@ -23,9 +23,6 @@ function CustomerList() {
     })
 
 
-   
-
-
     useEffect(() => {
         loadData(currentPage, searchName);
         return () => {
