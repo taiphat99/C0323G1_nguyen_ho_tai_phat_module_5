@@ -42,7 +42,6 @@ function App() {
           </Route>
           <Route path="contracts/" element={<ContractList />} >
           </Route>
-
         </Routes>
       </BrowserRouter>
     </>
