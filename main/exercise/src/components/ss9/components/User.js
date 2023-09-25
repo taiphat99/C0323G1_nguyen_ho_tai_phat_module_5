@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import OriModal from "../../modals/modal/OriModal";
+import {DELETE_USER} from "../redux/Action";
 
 function User() {
   const users = useSelector(state => state.users);
@@ -27,7 +28,7 @@ function User() {
   }
 
   const confirmDelete = async (id) => {
-     dispatch({ type: "DELETE_USER", payload: id })
+     dispatch({ type: DELETE_USER, payload: id })
     handleCloseModal();
   }
 

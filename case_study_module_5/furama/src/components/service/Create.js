@@ -1,6 +1,6 @@
 import React from "react";
 
-function ServiceCreating() {
+function Create() {
     return (
         <div className>
             <h1>Thêm mới dịch vụ</h1>
@@ -24,4 +24,4 @@ function ServiceCreating() {
         </div>
     )
 }
-export default ServiceCreating;
+export default Create;

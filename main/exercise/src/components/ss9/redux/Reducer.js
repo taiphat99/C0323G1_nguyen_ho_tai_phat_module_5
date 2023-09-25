@@ -13,7 +13,7 @@ const rootReducer = (state = initialState, action) => {
   // Handle các actions gửi lên
   switch (action.type) {
     case LOGIN_SUCCESS:
-      // console.log(4);
+      console.log(4);
       return { ...state, userlogined: action.payload };
     case FETCH_USER_SUCCESS:
       return { ...state, users: action.payload };

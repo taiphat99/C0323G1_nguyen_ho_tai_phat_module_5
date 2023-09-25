@@ -26,10 +26,27 @@ export const getCategories = async () => {
     }
 }
 
-export const editPost = async (target) => {
+export const deletePost = async (id) => {
     try {
-        await axios.patch('http://localhost:8000/posts', target)
+        await axios.delete(`http://localhost:8000/posts/${id}`)
     } catch (error) {
         console.log(error);
     }
 }
+
+export const editPost = async (value) => {
+    try {
+        await axios.patch(`http://localhost:8000/posts/${value.id}`, value)
+    } catch (error) {
+        console.log(error);
+    }
+}
+export const getPostById = async (id) => {
+    try {
+        const post = await axios.get(`http://localhost:8000/posts/${id}`);
+        return post.data;
+    } catch (error) {
+        console.log(error);
+    }
+}
+

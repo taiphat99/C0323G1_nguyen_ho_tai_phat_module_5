@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
+import {LOGIN} from "../redux/Action";
 
 function Login() {
 
@@ -13,13 +14,14 @@ function Login() {
 
 
   const setValueForUser = (key, value) => {
-    const newVal = { ...user, [key]: value };
+    const newVal = {...user,[key]: value };
+      console.log(newVal);
     setUser(newVal);
   };
 
   const login = () => {
     console.log(1);
-    dispatch({ type: "LOGIN", payload: user });
+    dispatch({ type: LOGIN, payload: user });
   };
 
   useEffect(() => {

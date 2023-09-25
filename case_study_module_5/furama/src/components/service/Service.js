@@ -2,14 +2,14 @@ import axios from 'axios';
 
 
 
-const URL = "http://localhost:8000/services"
-
-
-export const getAll = async () => {
-    try {        
-        return (await axios.get(URL)).data
+export const getAll = async (page, limit) => {
+    try {
+        const result = await axios.get(`http://localhost:8080/services?_page=${page}&_limit=${limit}`);
+        console.log([result.data, result.headers.get('x-total-count')]);
+        return [result.data, result.headers.get('x-total-count')];
     } catch (error) {
         console.log(error);
     }
 }
+
 

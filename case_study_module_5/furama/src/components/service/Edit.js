@@ -1,6 +1,6 @@
 import React from "react";
 
-function ServiceEditing() {
+function Edit() {
   return (
     <div className>
       <h1>Chỉnh sửa dịch vụ</h1>
@@ -24,4 +24,4 @@ function ServiceEditing() {
     </div>
   );
 }
-export default ServiceEditing;
+export default Edit;

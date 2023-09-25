@@ -1,214 +1,84 @@
 {
-    "posts": [
-        {
-            "id": 1,
-            "title": "What would i say about Running",
-            "price": 129000,
-            "category": {
-                "id": 1,
-                "name": "Sport"
-            },
-            "realease_date": "12/02/2012"
-        },
-        {
-            "id": 2,
-            "title": "Vietnamese earthworm hunters destroying protective forest go unpunished",
-            "price": 119000,
-            "category": {
-                "id": 2,
-                "name": "Life"
-            },
-            "realease_date": "12/02/2012"
-        },
-        {
-            "id": 3,
-            "title": "What would i say about Running",
-            "price": 129000,
-            "category": {
-                "id": 1,
-                "name": "Sport"
-            },
-            "realease_date": "12/02/2023"
-        },
-        {
-            "id": 4,
-            "title": "What would i say about Running",
-            "price": 109000,
-            "category": {
-                "id": 1,
-                "name": "Sport"
-            },
-            "realease_date": "12/02/2023"
-        },
-        {
-            "id": 5,
-            "title": "Vietnamese athletes to get big bonuses for Asian Games gold",
-            "price": 129000,
-            "category": {
-                "id": 1,
-                "name": "Sport"
-            },
-            "realease_date": "12/02/2012"
-        },
-        {
-            "id": 6,
-            "title": "Vietnamese earthworm hunters destroying protective forest go unpunished",
-            "price": 129000,
-            "category": {
-                "id": 2,
-                "name": "Life"
-            },
-            "realease_date": "12/02/2012"
-        },
-        {
-            "id": 7,
-            "title": "What should i do with sport",
-            "price": 129000,
-            "category": {
-                "id": 1,
-                "name": "Sport"
-            },
-            "realease_date": "12/02/2012"
-        },
-        {
-            "id": 8,
-            "title": "What would i say about Running",
-            "price": 129000,
-            "category": {
-                "id": 1,
-                "name": "Sport"
-            },
-            "realease_date": "12/02/2012"
-        },
-        {
-            "id": 9,
-            "title": "Maintain your network",
-            "price": 129000,
-            "category": {
-                "id": 1,
-                "name": "Sport"
-            },
-            "realease_date": "12/02/2012"
-        },
-        {
-            "id": 10,
-            "title": "Vietnamese athletes to get big bonuses for Asian Games gold",
-            "price": 129000,
-            "category": {
-                "id": 2,
-                "name": "Life"
-            },
-            "realease_date": "12/02/2012"
-        },
-        {
-            "id": 11,
-            "title": "What would i say about Running",
-            "price": 129000,
-            "category": {
-                "id": 1,
-                "name": "Sport"
-            },
-            "realease_date": "12/02/2012"
-        },
-        {
-            "id": 12,
-            "title": "Vietnamese athletes to get big bonuses for Asian Games gold",
-            "price": 99000,
-            "category": {
-                "id": 2,
-                "name": "Life"
-            },
-            "realease_date": "12/02/2012"
-        },
-        {
-            "id": 13,
-            "title": "What would i say about Running",
-            "price": 129000,
-            "category": {
-                "id": 1,
-                "name": "Sport"
-            },
-            "realease_date": "12/02/2012"
-        },
-        {
-            "id": 14,
-            "title": "What would i say about Running",
-            "price": 129000,
-            "category": {
-                "id": 1,
-                "name": "Sport"
-            },
-            "realease_date": "12/02/2012"
-        },
-        {
-            "id": 15,
-            "title": "What would i say about Running",
-            "price": 129000,
-            "category": {
-                "id": 1,
-                "name": "Sport"
-            },
-            "realease_date": "12/02/2012"
-        },
-        {
-            "id": 16,
-            "title": "What should i do with sport",
-            "price": 129000,
-            "category": {
-                "id": 1,
-                "name": "Sport"
-            },
-            "realease_date": "12/02/2012"
-        },
-        {
-            "id": 17,
-            "title": "What should i do with sport",
-            "price": 219000,
-            "category": {
-                "id": 1,
-                "name": "Sport"
-            },
-            "realease_date": "12/02/2012"
-        },
-        {
-            "id": 18,
-            "title": "What would i say about Running",
-            "price": 169000,
-            "category": {
-                "id": 1,
-                "name": "Sport"
-            },
-            "realease_date": "12/02/2012"
-        },
-        {
-            "id": 19,
-            "title": "Maintain your network",
-            "price": 129000,
-            "category": {
-                "id": 1,
-                "name": "Sport"
-            },
-            "realease_date": "12/02/2012"
-        },
-        {
-            "id": 20,
-            "title": "Vietnamese athletes to get big bonuses for Asian Games gold",
-            "price": 129000,
-            "category": {
-                "id": 1,
-                "name": "Sport"
-            },
-            "realease_date": "12/02/2012"
-        }
-    ],
-    "categories": [
-        {
-            "id": 1,
-            "name": "Sport"
-        },
-        {
-            "id": 2,
-            "name": "Life"
-        }
-    ]
+  "posts": [
+    {
+      "id": 2,
+      "title": "Maintain your network",
+      "price": 129000,
+      "category": {
+        "id": 2,
+        "name": "Life"
+      },
+      "release_date": "12/02/2012"
+    },
+    {
+      "id": 3,
+      "title": "What would i say about Running",
+      "price": 169000,
+      "category": {
+        "id": 1,
+        "name": "Sport"
+      },
+      "release_date": "12/02/2012"
+    },
+    {
+      "id": 5,
+      "title": "What would i say about Running",
+      "price": 169000,
+      "category": {
+        "id": 1,
+        "name": "Sport"
+      },
+      "release_date": "12/02/2012"
+    },
+    {
+      "id": 6,
+      "title": "Maintain your network",
+      "price": 129000,
+      "category": {
+        "id": 1,
+        "name": "Sport"
+      },
+      "release_date": "12/02/2012"
+    },
+    {
+      "id": 7,
+      "title": "What would i say about Running",
+      "price": 169000,
+      "category": {
+        "id": 1,
+        "name": "Sport"
+      },
+      "release_date": "12/02/2012"
+    },
+    {
+      "id": 8,
+      "title": "Maintain your network yes",
+      "price": 129000,
+      "category": {
+        "id": 1,
+        "name": "Sport"
+      },
+      "release_date": "12/02/2012"
+    },
+    {
+      "title": "Animation kills animals",
+      "price": 100000,
+      "category": {
+        "id": 2,
+        "name": "Life"
+      },
+      "release_date": "17/09/2023",
+      "id": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Sport"
+    },
+    {
+      "id": 2,
+      "name": "Life"
+    }
+  ]
 }

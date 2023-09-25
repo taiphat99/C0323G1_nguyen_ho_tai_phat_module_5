@@ -2,17 +2,17 @@
   "services": [
     {
       "id": 1,
-      "name": "Villa",
+      "name": "OCEAN SUITE",
       "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "area": 100,
-      "cost": 2000,
+      "area": 100.2,
+      "cost": 600,
       "max_capacity": 10,
       "renting_type": "daily"
     },
     {
       "id": 2,
-      "name": "House",
-      "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "name": "OCEAN STUDIO SUITE",
+      "image": "https://images.pexels.com/photos/1268869/pexels-photo-1268869.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": 80,
       "cost": 1600,
       "max_capacity": 5,
@@ -20,17 +20,17 @@
     },
     {
       "id": 3,
-      "name": "Villa",
-      "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "name": "OCEAN DELUXE",
+      "image": "https://images.pexels.com/photos/2724079/pexels-photo-2724079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": 100,
-      "cost": 2000,
+      "cost": 1700,
       "max_capacity": 10,
       "renting_type": "daily"
     },
     {
       "id": 4,
-      "name": "Villa",
-      "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "name": "GARDEN SUPERIOR",
+      "image": "https://images.pexels.com/photos/3324392/pexels-photo-3324392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": 100,
       "cost": 2000,
       "max_capacity": 10,
@@ -38,8 +38,8 @@
     },
     {
       "id": 5,
-      "name": "Villa",
-      "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "name": "LAGOON SUPERIOR",
+      "image": "https://images.pexels.com/photos/2646097/pexels-photo-2646097.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": "100",
       "cost": "2000",
       "max_capacity": "10",
@@ -48,7 +48,7 @@
     {
       "id": 6,
       "name": "Room",
-      "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image": "https://images.pexels.com/photos/9394646/pexels-photo-9394646.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": 50,
       "cost": 900,
       "max_capacity": 2,
@@ -56,8 +56,8 @@
     },
     {
       "id": 7,
-      "name": "Villa",
-      "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "name": "BEACH FRONT VILLAS",
+      "image": "https://images.pexels.com/photos/2724079/pexels-photo-2724079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": 100,
       "cost": 2000,
       "max_capacity": 10,
@@ -66,7 +66,7 @@
     {
       "id": 8,
       "name": "Room",
-      "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image": "https://images.pexels.com/photos/8323132/pexels-photo-8323132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": 56,
       "cost": 800,
       "max_capacity": 2,
@@ -74,7 +74,7 @@
     },
     {
       "id": 9,
-      "name": "Villa",
+      "name": "POOL VILLAS",
       "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": 100,
       "cost": 2000,
@@ -83,7 +83,97 @@
     },
     {
       "id": 10,
-      "name": "Villa",
+      "name": "POOL VILLAS",
+      "image": "https://images.pexels.com/photos/1430672/pexels-photo-1430672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "area": 100,
+      "cost": 1000,
+      "max_capacity": 10,
+      "renting_type": "daily"
+    },
+    {
+      "id": 11,
+      "name": "OCEAN SUITE",
+      "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "area": 100.2,
+      "cost": 2000,
+      "max_capacity": 10,
+      "renting_type": "daily"
+    },
+    {
+      "id": 12,
+      "name": "OCEAN STUDIO SUITE",
+      "image": "https://images.pexels.com/photos/1430672/pexels-photo-1430672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "area": 80,
+      "cost": 1600,
+      "max_capacity": 5,
+      "renting_type": "daily"
+    },
+    {
+      "id": 13,
+      "name": "OCEAN DELUXE",
+      "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "area": 100,
+      "cost": 2000,
+      "max_capacity": 10,
+      "renting_type": "daily"
+    },
+    {
+      "id": 14,
+      "name": "GARDEN SUPERIOR",
+      "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "area": 100,
+      "cost": 2000,
+      "max_capacity": 10,
+      "renting_type": "daily"
+    },
+    {
+      "id": 15,
+      "name": "LAGOON SUPERIOR",
+      "image": "https://images.pexels.com/photos/1287455/pexels-photo-1287455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "area": "100",
+      "cost": "2000",
+      "max_capacity": "10",
+      "renting_type": "daily"
+    },
+    {
+      "id": 16,
+      "name": "Room",
+      "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "area": 50,
+      "cost": 900,
+      "max_capacity": 2,
+      "renting_type": "monthly"
+    },
+    {
+      "id": 17,
+      "name": "BEACH FRONT VILLAS",
+      "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "area": 100,
+      "cost": 2000,
+      "max_capacity": 10,
+      "renting_type": "daily"
+    },
+    {
+      "id": 18,
+      "name": "Room",
+      "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "area": 56,
+      "cost": 800,
+      "max_capacity": 2,
+      "renting_type": "monthly"
+    },
+    {
+      "id": 19,
+      "name": "POOL VILLAS",
+      "image": "https://images.pexels.com/photos/1287455/pexels-photo-1287455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "area": 100,
+      "cost": 2000,
+      "max_capacity": 10,
+      "renting_type": "daily"
+    },
+    {
+      "id": 20,
+      "name": "POOL VILLAS",
       "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": 100,
       "cost": 2000,
@@ -92,20 +182,6 @@
     }
   ],
   "customers": [
-    {
-      "id": 1,
-      "name": "Kell",
-      "dob": "19/09/1999",
-      "gender": true,
-      "identity_number": "1974516789",
-      "phone": "0964510859",
-      "email": "danny@gmail.com",
-      "customer_type": {
-        "id": 1,
-        "name": "Member"
-      },
-      "address": "Da Nang"
-    },
     {
       "id": 2,
       "name": "Kell",
@@ -198,7 +274,10 @@
       "identity_number": "1974516789",
       "phone": "0964510859",
       "email": "danny@gmail.com",
-      "customer_type": "Diamond",
+      "customer_type": {
+        "id": 1,
+        "name": "Member"
+      },
       "address": "Da Nang"
     },
     {
@@ -209,7 +288,10 @@
       "identity_number": "1974516789",
       "phone": "0964510859",
       "email": "danny@gmail.com",
-      "customer_type": "Diamond",
+      "customer_type": {
+        "id": 1,
+        "name": "Member"
+      },
       "address": "Da Nang"
     },
     {
@@ -262,7 +344,10 @@
       "identity_number": "1974516789",
       "phone": "0964510859",
       "email": "danny@gmail.com",
-      "customer_type": "Diamond",
+      "customer_type": {
+        "id": 3,
+        "name": "Gold"
+      },
       "address": "Da Nang"
     },
     {
@@ -290,20 +375,6 @@
       "customer_type": {
         "id": 1,
         "name": "Member"
-      },
-      "address": "Da Nang"
-    },
-    {
-      "id": 19,
-      "name": "Danny",
-      "dob": "19/09/1999",
-      "gender": true,
-      "identity_number": "1974516789",
-      "phone": "0964510859",
-      "email": "danny@gmail.com",
-      "customer_type": {
-        "id": 4,
-        "name": "Platinum"
       },
       "address": "Da Nang"
     },
