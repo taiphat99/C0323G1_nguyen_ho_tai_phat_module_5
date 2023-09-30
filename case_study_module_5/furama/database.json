@@ -6,210 +6,289 @@
       "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": 100.2,
       "cost": 600,
+      "service_type": "Villa",
       "max_capacity": 10,
-      "renting_type": "daily"
+      "renting_type": "Daily",
+      "standard": "Basic",
+      "pool_area": "100",
+      "amenities": "Gym",
+      "floors": 3
     },
     {
       "id": 2,
       "name": "OCEAN STUDIO SUITE",
+      "service_type": "House",
       "image": "https://images.pexels.com/photos/1268869/pexels-photo-1268869.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": 80,
       "cost": 1600,
       "max_capacity": 5,
-      "renting_type": "daily"
+      "renting_type": "Daily",
+      "free_service": "Fruit",
+      "standard": "Basic",
+      "amenities": "Gym",
+      "floors": 3
     },
     {
       "id": 3,
       "name": "OCEAN DELUXE",
+      "service_type": "Villa",
       "image": "https://images.pexels.com/photos/2724079/pexels-photo-2724079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": 100,
       "cost": 1700,
       "max_capacity": 10,
-      "renting_type": "daily"
+      "renting_type": "Daily",
+      "standard": "Basic",
+      "pool_area": "100",
+      "amenities": "Gym",
+      "floors": 3
     },
     {
       "id": 4,
       "name": "GARDEN SUPERIOR",
+      "service_type": "Room",
       "image": "https://images.pexels.com/photos/3324392/pexels-photo-3324392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": 100,
       "cost": 2000,
       "max_capacity": 10,
-      "renting_type": "daily"
+      "renting_type": "Daily",
+      "free_service": "Fruit"
     },
     {
       "id": 5,
       "name": "LAGOON SUPERIOR",
+      "service_type": "Villa",
       "image": "https://images.pexels.com/photos/2646097/pexels-photo-2646097.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": "100",
       "cost": "2000",
       "max_capacity": "10",
-      "renting_type": "daily"
+      "renting_type": "Daily",
+      "pool_area": "100"
     },
     {
       "id": 6,
       "name": "Room",
+      "service_type": "Villa",
       "image": "https://images.pexels.com/photos/9394646/pexels-photo-9394646.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": 50,
       "cost": 900,
       "max_capacity": 2,
-      "renting_type": "monthly"
+      "renting_type": "Monthly",
+      "pool_area": "100"
     },
     {
       "id": 7,
+      "service_type": "Villa",
       "name": "BEACH FRONT VILLAS",
       "image": "https://images.pexels.com/photos/2724079/pexels-photo-2724079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": 100,
       "cost": 2000,
       "max_capacity": 10,
-      "renting_type": "daily"
+      "renting_type": "Daily",
+      "pool_area": "100",
+      "amenities": "Gym",
+      "floors": 3
     },
     {
       "id": 8,
       "name": "Room",
+      "service_type": "House",
       "image": "https://images.pexels.com/photos/8323132/pexels-photo-8323132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": 56,
       "cost": 800,
       "max_capacity": 2,
-      "renting_type": "monthly"
+      "renting_type": "Monthly",
+      "free_service": "Fruit",
+      "standard": "Basic",
+      "amenities": "Gym",
+      "floors": 3
     },
     {
       "id": 9,
       "name": "POOL VILLAS",
+      "service_type": "Room",
       "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": 100,
       "cost": 2000,
       "max_capacity": 10,
-      "renting_type": "daily"
+      "renting_type": "Daily",
+      "free_service": "Fruit"
     },
     {
       "id": 10,
+      "service_type": "Room",
       "name": "POOL VILLAS",
       "image": "https://images.pexels.com/photos/1430672/pexels-photo-1430672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": 100,
       "cost": 1000,
       "max_capacity": 10,
-      "renting_type": "daily"
+      "renting_type": "Daily",
+      "free_service": "Fruit"
     },
     {
       "id": 11,
       "name": "OCEAN SUITE",
+      "service_type": "Villa",
       "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": 100.2,
       "cost": 2000,
       "max_capacity": 10,
-      "renting_type": "daily"
+      "renting_type": "Daily",
+      "pool_area": "100",
+      "amenities": "Gym",
+      "floors": 3
     },
     {
       "id": 12,
       "name": "OCEAN STUDIO SUITE",
+      "service_type": "Villa",
       "image": "https://images.pexels.com/photos/1430672/pexels-photo-1430672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": 80,
       "cost": 1600,
       "max_capacity": 5,
-      "renting_type": "daily"
+      "renting_type": "Daily",
+      "pool_area": "100",
+      "amenities": "Gym",
+      "floors": 3
     },
     {
       "id": 13,
       "name": "OCEAN DELUXE",
+      "service_type": "House",
       "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": 100,
       "cost": 2000,
       "max_capacity": 10,
-      "renting_type": "daily"
+      "renting_type": "Daily",
+      "standard": "Basic",
+      "amenities": "Gym"
     },
     {
       "id": 14,
       "name": "GARDEN SUPERIOR",
+      "service_type": "House",
       "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": 100,
       "cost": 2000,
       "max_capacity": 10,
-      "renting_type": "daily"
+      "renting_type": "Daily",
+      "standard": "Basic",
+      "amenities": "Gym"
     },
     {
       "id": 15,
       "name": "LAGOON SUPERIOR",
+      "service_type": "House",
       "image": "https://images.pexels.com/photos/1287455/pexels-photo-1287455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": "100",
       "cost": "2000",
       "max_capacity": "10",
-      "renting_type": "daily"
+      "renting_type": "Daily",
+      "standard": "Basic",
+      "amenities": "Gym",
+      "floors": 3
     },
     {
       "id": 16,
-      "name": "Room",
+      "name": "Room Deluxe",
+      "service_type": "Room",
       "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": 50,
       "cost": 900,
       "max_capacity": 2,
-      "renting_type": "monthly"
+      "renting_type": "Monthly",
+      "free_service": "Fruit"
     },
     {
       "id": 17,
       "name": "BEACH FRONT VILLAS",
+      "service_type": "Room",
       "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": 100,
       "cost": 2000,
       "max_capacity": 10,
-      "renting_type": "daily"
+      "renting_type": "Daily",
+      "free_service": "Fruit"
     },
     {
       "id": 18,
-      "name": "Room",
+      "name": "Superior",
+      "service_type": "House",
       "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": 56,
       "cost": 800,
       "max_capacity": 2,
-      "renting_type": "monthly"
+      "renting_type": "Monthly",
+      "standard": "Basic",
+      "amenities": "Gym",
+      "floors": 3
     },
     {
       "id": 19,
       "name": "POOL VILLAS",
+      "service_type": "Room",
       "image": "https://images.pexels.com/photos/1287455/pexels-photo-1287455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": 100,
       "cost": 2000,
       "max_capacity": 10,
-      "renting_type": "daily"
+      "renting_type": "Daily",
+      "free_service": "Fruit"
     },
     {
       "id": 20,
       "name": "POOL VILLAS",
+      "service_type": "House",
       "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "area": 100,
       "cost": 2000,
       "max_capacity": 10,
-      "renting_type": "daily"
+      "renting_type": "Daily",
+      "free_service": "Fruit",
+      "standard": "Basic",
+      "amenities": "Gym"
+    },
+    {
+      "service_type": "house",
+      "name": "New Villa",
+      "area": "100",
+      "cost": "1000",
+      "max_capacity": "2",
+      "renting_type": "Hour",
+      "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "standard": "Basic",
+      "amenities": "Gym",
+      "floors": "2",
+      "pool_area": "60",
+      "identity_number": "1000",
+      "id": 21
+    },
+    {
+      "service_type": "house",
+      "name": "New House",
+      "area": "120",
+      "cost": "500",
+      "max_capacity": "4",
+      "renting_type": "Month",
+      "image": "https://images.pexels.com/photos/3155639/pexels-photo-3155639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "standard": "Medium",
+      "amenities": "Gym",
+      "floors": "2",
+      "identity_number": "2000",
+      "id": 22
+    },
+    {
+      "service_type": "room",
+      "name": "New Room",
+      "area": "50",
+      "cost": "200",
+      "max_capacity": "2",
+      "renting_type": "Month",
+      "image": "https://images.pexels.com/photos/1287455/pexels-photo-1287455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "identity_number": "200",
+      "free_service": "Fruit",
+      "id": 23
     }
   ],
   "customers": [
-    {
-      "id": 2,
-      "name": "Kell",
-      "dob": "19/09/1999",
-      "gender": true,
-      "identity_number": "1974516789",
-      "phone": "0964510859",
-      "email": "danny@gmail.com",
-      "customer_type": {
-        "id": 1,
-        "name": "Member"
-      },
-      "address": "Da Nang"
-    },
-    {
-      "id": 3,
-      "name": "Kell",
-      "dob": "19/09/1999",
-      "gender": true,
-      "identity_number": "1974516789",
-      "phone": "0964510859",
-      "email": "danny@gmail.com",
-      "customer_type": {
-        "id": 1,
-        "name": "Member"
-      },
-      "address": "Da Nang"
-    },
     {
       "id": 4,
       "name": "Kell",
@@ -405,6 +484,66 @@
         "name": "Diamond"
       },
       "address": "Da Nang"
+    },
+    {
+      "name": "Danny Nguyen",
+      "dob": "2023-09-08",
+      "gender": true,
+      "identity_number": "123123123123",
+      "customer_type": {
+        "id": 1,
+        "name": "Member"
+      },
+      "phone": "0964510859",
+      "email": "taiphatlqp@gmail.com",
+      "rank": "",
+      "address": "Quang Tri",
+      "id": 22
+    },
+    {
+      "name": "Danny Nguyen",
+      "dob": "09/09/2023",
+      "gender": true,
+      "identity_number": "123456789123",
+      "customer_type": {
+        "id": 4,
+        "name": "Platinum"
+      },
+      "phone": "0987567567",
+      "email": "dannynguyen@gmail.com",
+      "rank": "",
+      "address": "Quang Tri",
+      "id": 23
+    },
+    {
+      "name": "Danny Nguyen",
+      "dob": "17/07/2023",
+      "gender": true,
+      "identity_number": "123456789123",
+      "customer_type": {
+        "id": 5,
+        "name": "Diamond"
+      },
+      "phone": "0986812312",
+      "email": "admin@gmail.com",
+      "rank": "",
+      "address": "Da Nang",
+      "id": 24
+    },
+    {
+      "name": "Danny Nguyen",
+      "dob": "06/02/2004",
+      "gender": "false",
+      "identity_number": "197451678912",
+      "customer_type": {
+        "id": 4,
+        "name": "Platinum"
+      },
+      "phone": "0986812312",
+      "email": "cuong@gmail.com",
+      "rank": "",
+      "address": "Quảng Trị",
+      "id": 25
     }
   ],
   "contracts": [
@@ -505,7 +644,7 @@
       "total_money": 1500
     }
   ],
-  "customer_type": [
+  "customer_types": [
     {
       "id": 1,
       "name": "Member"

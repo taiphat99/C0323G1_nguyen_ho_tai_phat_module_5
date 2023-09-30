@@ -3,23 +3,23 @@ import { MDBTable, MDBContainer, MDBRow, MDBCol, MDBTableHead, MDBTableBody, MDB
 import { deleteCustomer, getAll } from "./Service";
 import Modal from "../common_parts/Modal";
 import { toast } from "react-toastify";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 
 
 function CustomerList() {
-
 
     const [data, setData] = useState();
     const [currentPage, setCurrentPage] = useState(1);
     const [refresh, setRefresh] = useState(true);
     const [totalPages, setTotalPages] = useState();
     const [searchName, setSearchName] = useState("");
-    const [records,setRecords] = useState("");
+    const [records, setRecords] = useState("");
+    const navigate = useNavigate();
     const limit = 5;
-    const [modal,setModal] = useState({
+    const [modal, setModal] = useState({
         status: false,
-        data:null
+        data: null
     })
 
 
@@ -66,7 +66,7 @@ function CustomerList() {
         })
     }
 
-    const handleCloseModal =() => {
+    const handleCloseModal = () => {
         setModal({
             status: false,
             data: null
@@ -81,14 +81,19 @@ function CustomerList() {
         handleCloseModal();
         setRefresh((refresh) => !refresh)
     }
-
+    const headingToCreate = () => {
+        navigate('add');
+    }
+    const headingToEdit = (id) => {
+        navigate(`${id}/edit`);
+    }
     return (
-        <MDBContainer>
+        <MDBContainer >
             <div className="text-center mt-4">
                 <h2 className="">Customer List</h2>
                 <div className="my-3 d-flex justify-content-between">
-                    <MDBBtn className='me-1 d-content' color='success'>
-                        <Link to="add"><MDBIcon fas icon="user-plus" ></MDBIcon></Link>
+                    <MDBBtn className='me-1 d-content' color='success' onClick={headingToCreate}>
+                        <ion-icon style={{ "fontSize": "20px", "color": "white" }} name="person-add-outline"></ion-icon>
                     </MDBBtn>
                     <div className="d-inline-block w-25 h-100 position-relative" >
                         <MDBInput style={{ "height": "40px" }} onKeyDown={handleKeyDown} label='Seach' id='form1' type='text' onChange={(e) => setSearchName(e.target.value)} />
@@ -103,7 +108,7 @@ function CustomerList() {
                 <MDBRow>
                     <MDBCol size="12">
                         <div style={{ minHeight: "450px" }}>
-                            <MDBTable >
+                            <MDBTable style={{ 'fontSize': '12px' }}>
                                 <MDBTableHead className="table-success">
                                     <tr>
                                         <th scope="col">ID</th>
@@ -120,7 +125,7 @@ function CustomerList() {
                                     </tr>
                                 </MDBTableHead>
                                 <MDBTableBody>
-                                    {data ? (data.map((item, index) => {
+                                    {data ? (data.map((item) => {
                                         return (
                                             <tr key={item.id}>
                                                 <td>{item.id}</td>
@@ -132,7 +137,7 @@ function CustomerList() {
                                                 <td>{item.email}</td>
                                                 <td>{item.customer_type.name}</td>
                                                 <td>{item.address}</td>
-                                                <td><MDBBtn className='me-1' color='success'>Edit</MDBBtn></td>
+                                                <td><MDBBtn className='me-1' color='success' onClick={() => { headingToEdit(item.id) }}>Edit</MDBBtn></td>
                                                 <td><MDBBtn className='me-1' color='danger' onClick={() => handleShowModal(item)}>Delete</MDBBtn></td>
                                             </tr>
                                         )
@@ -149,34 +154,34 @@ function CustomerList() {
             {/* Paging */}
 
             <nav className="d-flex justify-content-center">
-            <span className="result-style">Result: <b>{records}</b> record(s)</span>
+                <span className="result-style">Result: <b>{records}</b> record(s)</span>
                 <MDBPagination className='mb-0'>
                     <MDBPaginationItem className={`${currentPage <= 1 ? "disabled" : ""}`}>
-                        <MDBPaginationLink onClick={() => prePage()} tabIndex={-1} >
+                        <MDBPaginationLink style={{ "user-select": "none" }} onClick={() => prePage()} tabIndex={-1} >
                             Previous
                         </MDBPaginationLink>
                     </MDBPaginationItem>
 
                     <MDBPaginationItem active aria-current='page'>
-                        <MDBPaginationLink>
+                        <MDBPaginationLink style={{ "user-select": "none" }}>
                             {currentPage}
                         </MDBPaginationLink>
                     </MDBPaginationItem>
 
                     <MDBPaginationItem className={`${currentPage >= totalPages ? "disabled" : ""}`}>
-                        <MDBPaginationLink onClick={() => nextPage()}>Next</MDBPaginationLink>
+                        <MDBPaginationLink style={{ "user-select": "none" }} onClick={() => nextPage()}>Next</MDBPaginationLink>
                     </MDBPaginationItem>
                 </MDBPagination>
             </nav>
 
-        
+
             {
-            modal.status && <Modal 
-                target={modal.data.name}
-                onConfirm = {() => confirmDelete(modal.data.id)}
-                handleShow={modal.status}
-                handleHide={handleCloseModal}
-            />
+                modal.status && <Modal
+                    target={modal.data.name}
+                    onConfirm={() => confirmDelete(modal.data.id)}
+                    handleShow={modal.status}
+                    handleHide={handleCloseModal}
+                />
             }
 
 

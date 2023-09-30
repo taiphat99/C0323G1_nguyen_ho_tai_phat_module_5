@@ -143,7 +143,7 @@ body {
 .cus-container {
   margin: 0 auto;
   margin-top: 40px;
-  width: 50%;
+  width: 65%;
   min-height: 800px;
   padding: 40px;
   border: #7d7f80 solid 1px;
@@ -171,6 +171,7 @@ header {
 }
 
 .logo {
+  top: 100px;
   left: 100px;
   position: absolute;
   height: 60px;
@@ -294,6 +295,17 @@ span {
 i {
   padding: 10px;
 }
+.validate-failed {
+  margin-left: 160px;
+  color: red;
+  animation: mymove 0.3s ease-in-out reverse;
+}
+@keyframes mymove {
+  to {
+    margin-left: 70px;
+  }
+}
+
 .result-style {
   font-size: small;
   font-style: italic;

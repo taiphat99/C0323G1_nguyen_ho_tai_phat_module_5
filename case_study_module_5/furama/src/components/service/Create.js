@@ -1,27 +1,54 @@
-import React from "react";
 
-function Create() {
+import React, { useState } from "react";
+import { MDBBtn } from "mdb-react-ui-kit";
+import House from "./create/House";
+import Villa from "./create/Villa";
+import Room from "./create/Room";
+
+function ServiceCreate() {
+
+    const [villaIsActive, setVillaIsActive] = useState(true);
+    const [houseIsActive, setHouseIsActive] = useState(false);
+    const [roomIsActive, setRoomIsActive] = useState(false);
+
+    const handleVillaButton = () => {
+        setVillaIsActive(true);
+        setHouseIsActive(false);
+        setRoomIsActive(false);
+    }
+    const handleHouseButton = () => {
+        setVillaIsActive(false);
+        setHouseIsActive(true);
+        setRoomIsActive(false);
+    }
+    const handleRoomButton = () => {
+        setVillaIsActive(false);
+        setHouseIsActive(false);
+        setRoomIsActive(true);
+    }
+
+
+
     return (
-        <div className>
-            <h1>Thêm mới dịch vụ</h1>
-            <div>Tên dịch vụ</div>
-            <input type="text" name="service-name" />
-            <div>Diện tích sử dụng</div>
-            <input type="text" name="use-area" />
-            <div>Chi phí thuê</div>
-            <input type="text" name="rental-cost" />
-            <div>Số lượng người tối đa</div>
-            <input type="text" name="capacity" />
-            <div>
-                <div htmlFor="rental-type">Kiểu thuê</div>
-                <select name="rental-type" id="rental-type">
-                    <option value>Giờ</option>
-                    <option value>Ngày</option>
-                    <option value>Tháng</option>
-                    <option value>Năm</option>
-                </select>
-            </div>
-        </div>
+        <>
+            <div className="cus-container">
+                <div className="mb-3">
+                    <MDBBtn className={villaIsActive ? 'btn btn-dark mx-2' : 'mx-2 btn btn-outline-dark'} color='dark' onClick={handleVillaButton}>
+                        Villa
+                    </MDBBtn>
+                    <MDBBtn className={houseIsActive ? 'btn btn-dark mx-2' : 'mx-2 btn btn-outline-dark'} color='dark' id="house-button" onClick={handleHouseButton}>
+                        House
+                    </MDBBtn>
+                    <MDBBtn className={roomIsActive ? 'btn btn-dark mx-2' : 'mx-2 btn btn-outline-dark'} color='dark' id="room-button" onClick={handleRoomButton}>
+                        Room
+                    </MDBBtn>
+                </div>
+                {villaIsActive && <Villa />}
+                {houseIsActive && <House />}
+                {roomIsActive && <Room />}
+            </div >
+
+        </>
     )
 }
-export default Create;
+export default ServiceCreate;

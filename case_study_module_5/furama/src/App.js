@@ -3,17 +3,15 @@ import './App.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from './components/common_parts/Footer';
-import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import Navi from './components/common_parts/Navi';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import CustomerList from './components/customer/List';
 import ContractList from './components/contract/List';
 import CustomerEditing from './components/customer/Edit';
 import CustomerCreating from './components/customer/Create';
+import ServiceList from './components/service/List';
+import ServiceCreate from './components/service/Create';
 
-import Edit from './components/service/Edit';
-import Create from './components/service/Create';
-import List from './components/service/List';
 
 function App() {
 
@@ -24,11 +22,14 @@ function App() {
       <BrowserRouter>
         <Navi />
         <Routes>
-          <Route path="/">
-            <Route path="" element={<List />} />
+          <Route path='/'>
+            <Route path='services/'>
+              <Route path='' element={<ServiceList />} />
+              <Route path='add' element={<ServiceCreate />} />
+            </Route>
             <Route path="customers/">
               <Route path="" element={<CustomerList />} />
-              <Route path='edit' element={<CustomerEditing />} />
+              <Route path=':id/edit' element={<CustomerEditing />} />
               <Route path='add' element={<CustomerCreating />} />
             </Route>
           </Route>

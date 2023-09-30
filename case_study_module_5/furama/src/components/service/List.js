@@ -2,7 +2,7 @@ import { MDBPagination, MDBPaginationItem, MDBPaginationLink } from 'mdb-react-u
 import React, { useEffect, useState } from 'react';
 import { getAll } from './Service';
 
-const List = () => {
+const ServiceList = () => {
   const [data, setData] = useState();
   const [recordTotal, setRecordTotal] = useState();
   const [currentPage, setCurrentPage] = useState(1);
@@ -63,11 +63,9 @@ const List = () => {
               </div>
             )
           })}
-
-
-
-
         </div>
+
+
         {/* Paging */}
 
         <nav className="d-flex justify-content-center">
@@ -95,4 +93,4 @@ const List = () => {
   );
 };
 
-export default List;
+export default ServiceList;

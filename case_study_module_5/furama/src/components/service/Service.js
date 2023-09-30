@@ -12,4 +12,13 @@ export const getAll = async (page, limit) => {
     }
 }
 
+export const addService = async (value) => {
+    try {
+        await axios.post('http://localhost:8080/services', value)
+
+    } catch (error) {
+        console.log(error);
+    }
+}
+
 
